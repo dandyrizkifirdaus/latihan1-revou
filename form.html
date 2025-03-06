@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latihan Form</title>
+    </head>
+    <body>
+        <h1>Latihan Form</h1>
+        <form action="https://www.google.com" method="post">
+            <label for="nama">Nama:</label>
+            <input id="nama" type="text"/>
+            <br>
+            <label for="umur">Umur:</label>
+            <input id="umur" type="number" min="1" max="9"/>
+            <p><b>Apa Warna Favoritmu? </b></p>
+            <select>
+                <option>Merah</option>
+                <option>Kuning</option>
+                <option selected>Hijau</option>
+            </select>
+
+            <br>
+            <input type="radio" id="html" name="fav_language" value="hmtl">
+            <label for="html">HTML</label><br>
+
+            <input type="radio" id="css" name="fav_language" value="css">
+            <label for="html">CSS</label><br>
+
+            <input type="radio" id="javascript" name="fav_language" value="javascript">
+            <label for="html">JAVASCRIPT</label><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
